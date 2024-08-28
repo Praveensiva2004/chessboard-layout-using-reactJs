@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color:white;
+}
+
+.chessboard {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(8, 50px);
+  
+  border: 2px solid black;
+}
+
+
+
+.squareblack {
+  background-color:chocolate;
+  width: 50px;
+  height: 50px;
+}
+
+.squarewhite {
+  background-color:whitesmoke;
+  width: 50px;
+  height: 50px;
+}
+.icon {
+  font-size: 24px;
+  color:black;
+  margin:10px 10px 10px 10px;
+}
+.icon1 {
+  font-size: 24px;
+  color:burlywood;
+  margin:10px 10px 10px 10px;
+}
